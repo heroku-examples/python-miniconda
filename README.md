@@ -16,7 +16,7 @@ All [Anaconda packages](https://docs.continuum.io/anaconda/pkg-docs) are support
 
 Deploy with the [Container Registry and Runtime](https://devcenter.heroku.com/articles/container-registry-and-runtime):
 
-     $ heroku plugins:install heroku-container-registry
+     $ heroku plugins:install @heroku-cli/plugin-container-registry
      $ heroku container:login
      
      $ git clone https://github.com/heroku-examples/python-miniconda
